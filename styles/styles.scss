@@ -13,8 +13,9 @@
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
         height: 490px;
-        width: 100%;
+        width: auto;
         border-bottom-right-radius: 215px;
+        // border: 2px solid black;
 
         .navbar {
             background-color: $background-container;
@@ -27,12 +28,13 @@
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
+                margin-right: 2.5rem;
             }
 
             &__logo {
                 font-weight: 800;
                 color: white;
-                margin-right: 240px;
+                margin-right: 13em;
                 border: none;
 
             }
@@ -42,7 +44,7 @@
                 background-color: $btn-color; // Make sure this variable is defined
                 border-radius: 40px;
                 height: 30px;
-                width: 90px;
+                width: 5rem;
                 margin-right: 10px;
             }
 
@@ -60,7 +62,7 @@
 
             &__desc {
                 color: white;
-                font-size: 31px;
+                font-size: 1.8em;
                 font-weight: bold;
                 margin-top: 30px;
                 margin-bottom: 30px;
@@ -71,7 +73,7 @@
                 display: block;
                 margin-bottom: 30px;
                 height: 50px;
-                width: 398px;
+                width: 60%;
                 border: none;
                 outline: none;
                 border-radius: 15px;
@@ -81,7 +83,7 @@
             &__destination{
                 margin-bottom: 30px;
                 height: 50px;
-                width: 398px;
+                width: 60%;
                 border: none;
                 outline: none;
                 border-radius: 15px;

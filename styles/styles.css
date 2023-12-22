@@ -9,7 +9,7 @@
   .container {
     background-color: #4CAF50;
     height: 490px;
-    width: 100%;
+    width: auto;
     border-bottom-right-radius: 215px;
   }
   .container .navbar {
@@ -23,11 +23,12 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    margin-right: 2.5rem;
   }
   .container .navbar__logo {
     font-weight: 800;
     color: white;
-    margin-right: 240px;
+    margin-right: 13em;
     border: none;
   }
   .container .navbar__signup {
@@ -35,7 +36,7 @@
     background-color: #FFC107;
     border-radius: 40px;
     height: 30px;
-    width: 90px;
+    width: 5rem;
     margin-right: 10px;
   }
   .container .navbar__login {
@@ -50,7 +51,7 @@
   }
   .container .main__desc {
     color: white;
-    font-size: 31px;
+    font-size: 1.8em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -60,7 +61,7 @@
     display: block;
     margin-bottom: 30px;
     height: 50px;
-    width: 398px;
+    width: 60%;
     border: none;
     outline: none;
     border-radius: 15px;
@@ -69,7 +70,7 @@
   .container .main__destination {
     margin-bottom: 30px;
     height: 50px;
-    width: 398px;
+    width: 60%;
     border: none;
     outline: none;
     border-radius: 15px;
