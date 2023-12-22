@@ -9,7 +9,7 @@
   .container {
     background-color: #4CAF50;
     height: 530px;
-    width: auto;
+    width: 100%;
     border-bottom-right-radius: 215px;
   }
   .container .navbar {
