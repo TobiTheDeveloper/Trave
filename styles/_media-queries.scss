@@ -1,42 +1,37 @@
 // Extra small devices (phones)
-@mixin xs {
-    @media only screen and (min-width: 575.98px) {
+@mixin sm {
+    @media only screen and (max-width: 575.98px) {
       @content;
     }
   }
   
   // Small devices (tablets)
-  @mixin sm {
+  @mixin md {
     @media only screen and (min-width: 767.98px) {
       @content;
     }
   }
   
   // Medium devices (desktops)
-  @mixin md {
+  @mixin lg {
     @media only screen and (min-width: 991.98px) {
       @content;
     }
   }
   
   // Large devices (large desktops)
-  @mixin lg {
+  @mixin xl {
     @media only screen and (min-width: 1199.98px) {
       @content;
     }
   }
   
   // Extra large devices (extra large desktops)
-  @mixin xl {
+  @mixin xxl {
     @media only screen and (min-width: 1200px) {
       @content;
     }
   }
   
-  // Extra extra large devices (extra extra large desktops)
-  @mixin xxl {
-    @media only screen and (min-width: 1400px) {
-      @content;
-    }
-  }
+
   

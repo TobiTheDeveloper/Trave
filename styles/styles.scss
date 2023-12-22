@@ -10,10 +10,10 @@
 }
 
 .container {
-    @include xs {
+    @include sm {
         background-color: $background-container; // Make sure this variable is defined
         height: 490px;
-        width: auto;
+        width: 100%;
         border-bottom-right-radius: 215px;
 
         .navbar {
@@ -99,7 +99,4 @@
         }
     }
 
-    @include sm {
-        background-color: black;
-    }
 }

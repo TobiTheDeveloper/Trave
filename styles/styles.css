@@ -5,11 +5,11 @@
   box-sizing: content-box;
 }
 
-@media only screen and (min-width: 575.98px) {
+@media only screen and (max-width: 575.98px) {
   .container {
     background-color: #4CAF50;
     height: 490px;
-    width: auto;
+    width: 100%;
     border-bottom-right-radius: 215px;
   }
   .container .navbar {
@@ -82,10 +82,5 @@
     border-radius: 15px;
     width: 144px;
     height: 47px;
-  }
-}
-@media only screen and (min-width: 767.98px) {
-  .container {
-    background-color: black;
   }
 }/*# sourceMappingURL=styles.css.map */
