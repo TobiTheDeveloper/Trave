@@ -1,0 +1,91 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .container {
+    background-color: #4CAF50;
+    height: 490px;
+    width: auto;
+    border-bottom-right-radius: 215px;
+  }
+  .container .navbar {
+    background-color: #4CAF50;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .navbar__burger-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .container .navbar__logo {
+    font-weight: 800;
+    color: white;
+    margin-right: 240px;
+    border: none;
+  }
+  .container .navbar__signup {
+    border: none;
+    background-color: #FFC107;
+    border-radius: 40px;
+    height: 30px;
+    width: 90px;
+    margin-right: 10px;
+  }
+  .container .navbar__login {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  .container .main {
+    margin-top: 30px;
+  }
+  .container .main__desc {
+    color: white;
+    font-size: 31px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .container .main__location {
+    display: block;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 398px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .container .main__destination {
+    margin-bottom: 30px;
+    height: 50px;
+    width: 398px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px;
+    display: block;
+  }
+  .container .main__prices {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    width: 144px;
+    height: 47px;
+  }
+}
+@media only screen and (min-width: 767.98px) {
+  .container {
+    background-color: black;
+  }
+}/*# sourceMappingURL=styles.css.map */
