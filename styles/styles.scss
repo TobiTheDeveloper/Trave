@@ -12,7 +12,7 @@
 .container {
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
-        height: 100vh;
+        height: 490px;
         width: auto;
         border-bottom-right-radius: 215px;
         // border: 2px solid black;
@@ -28,13 +28,13 @@
                 border: none;
                 background-color: transparent;
                 cursor: pointer;
-                margin-right: 2.5rem;
+                margin-right: 4.5rem;
             }
 
             &__logo {
                 font-weight: 800;
                 color: white;
-                margin-right: 13em;
+                margin-right: 10em;
                 border: none;
 
             }
@@ -58,7 +58,7 @@
         }
 
         .main{
-            margin-top: 30px;
+            margin-top: 50px;
 
             &__desc {
                 color: white;
@@ -73,7 +73,7 @@
                 display: block;
                 margin-bottom: 30px;
                 height: 50px;
-                width: 60%;
+                width: 80%;
                 border: none;
                 outline: none;
                 border-radius: 15px;
@@ -83,7 +83,7 @@
             &__destination{
                 margin-bottom: 30px;
                 height: 50px;
-                width: 60%;
+                width: 80%;
                 border: none;
                 outline: none;
                 border-radius: 15px;

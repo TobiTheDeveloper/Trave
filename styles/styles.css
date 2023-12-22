@@ -8,7 +8,7 @@
 @media (max-width: 575.98px) {
   .container {
     background-color: #4CAF50;
-    height: 100vh;
+    height: 490px;
     width: auto;
     border-bottom-right-radius: 215px;
   }
@@ -23,12 +23,12 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin-right: 2.5rem;
+    margin-right: 4.5rem;
   }
   .container .navbar__logo {
     font-weight: 800;
     color: white;
-    margin-right: 13em;
+    margin-right: 10em;
     border: none;
   }
   .container .navbar__signup {
@@ -47,7 +47,7 @@
     font-weight: bold;
   }
   .container .main {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .container .main__desc {
     color: white;
@@ -61,7 +61,7 @@
     display: block;
     margin-bottom: 30px;
     height: 50px;
-    width: 60%;
+    width: 80%;
     border: none;
     outline: none;
     border-radius: 15px;
@@ -70,7 +70,7 @@
   .container .main__destination {
     margin-bottom: 30px;
     height: 50px;
-    width: 60%;
+    width: 80%;
     border: none;
     outline: none;
     border-radius: 15px;
