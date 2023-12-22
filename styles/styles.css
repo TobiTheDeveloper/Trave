@@ -83,4 +83,12 @@
     color: black;
     font-weight: bold;
   }
+  .container .secMain {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .container .secMain__passanger {
+    border-top-left-radius: 214.5px;
+    border-bottom-right-radius: 214.5px;
+  }
 }/*# sourceMappingURL=styles.css.map */
