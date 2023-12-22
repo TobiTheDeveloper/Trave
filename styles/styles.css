@@ -84,7 +84,7 @@
     font-weight: bold;
   }
   .container .secMain {
-    width: 100%;
+    width: auto;
     margin-top: 10rem;
   }
   .container .secMain__passanger {
