@@ -5,7 +5,7 @@
   box-sizing: content-box;
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (min-width: 575.98px) {
   .container {
     background-color: #4CAF50;
     height: 490px;

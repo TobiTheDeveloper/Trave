@@ -1,6 +1,6 @@
 // Extra small devices (phones)
 @mixin xs {
-    @media only screen and (max-width: 575.98px) {
+    @media only screen and (min-width: 575.98px) {
       @content;
     }
   }
@@ -14,14 +14,14 @@
   
   // Medium devices (desktops)
   @mixin md {
-    @media only screen and (max-width: 991.98px) {
+    @media only screen and (min-width: 991.98px) {
       @content;
     }
   }
   
   // Large devices (large desktops)
   @mixin lg {
-    @media only screen and (max-width: 1199.98px) {
+    @media only screen and (min-width: 1199.98px) {
       @content;
     }
   }
