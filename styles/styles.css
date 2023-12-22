@@ -15,9 +15,6 @@
   .container .navbar {
     background-color: #4CAF50;
     border: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   .container .navbar__burger-button {
     border: none;
