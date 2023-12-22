@@ -12,7 +12,7 @@
 .container {
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
-        height: 490px;
+        height: 100vh;
         width: auto;
         border-bottom-right-radius: 215px;
         // border: 2px solid black;
