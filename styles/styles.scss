@@ -13,7 +13,7 @@
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
         height: 530px;
-        width: 100%;
+        width: auto;
         border-bottom-right-radius: 215px;
 
         .navbar {
