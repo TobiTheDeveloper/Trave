@@ -12,6 +12,12 @@
     width: auto;
     border-bottom-right-radius: 215px;
   }
+  .container .navbar__logo {
+    font-weight: 800;
+    color: white;
+    margin: 0em 0em em 0em;
+    border: none;
+  }
   .container .main {
     margin-top: 50px;
   }
