@@ -49,10 +49,9 @@
                 font-weight: bold;
             }
 
-            .collapse{
-                height: 100vh;
-                color: black;
-                background-color: white; /* Semi-transparent background */
+            .nav-item, a{
+                font-size: 1.4rem;
+                color: white;
             }
         }
 
@@ -103,12 +102,10 @@
 
         .secMain{
             margin-top: 7rem;
-
             &__passanger {
                 border-top-left-radius: 214.5px;
                 border-bottom-right-radius: 214.5px;
                 width: 100%;
-
             }
         }
     }

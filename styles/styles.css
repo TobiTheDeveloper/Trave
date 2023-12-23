@@ -40,10 +40,9 @@
     margin-top: 3rem;
     font-weight: bold;
   }
-  .container .navbar .collapse {
-    height: 100vh;
-    color: black;
-    background-color: white; /* Semi-transparent background */
+  .container .navbar .nav-item, .container .navbar a {
+    font-size: 1.4rem;
+    color: white;
   }
   .container .main {
     margin-top: 5rem;
