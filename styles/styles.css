@@ -12,51 +12,8 @@
     width: auto;
     border-bottom-right-radius: 215px;
   }
-  .container .navbar {
-    background-color: #4CAF50;
-    border: none;
-    border: 2px solid black;
-    width: auto;
-    outline: none;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    box-sizing: border-box;
-    max-width: 1328px;
-    padding-left: 14px;
-    padding-right: 14px;
-  }
-  .container .navbar .navbar-toggler {
-    border: none;
-    outline: none;
-    color: #4CAF50;
-    padding: 0.3rem;
-    width: 1.4em;
-  }
-  .container .navbar__logo {
-    font-weight: 800;
-    color: white;
-    margin: 0em 0em em 0em;
-    border: none;
-  }
-  .container .navbar__signup {
-    border: none;
-    background-color: #FFC107;
-    border-radius: 40px;
-    height: 30px;
-    width: 5rem;
-    margin-left: 0.5em;
-  }
-  .container .navbar__login {
-    border: none;
-    background-color: transparent;
-    color: white;
-    margin-left: 7.5em;
-    font-weight: bold;
-  }
   .container .main {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   .container .main__desc {
     color: white;

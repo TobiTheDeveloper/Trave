@@ -16,58 +16,51 @@
         width: auto;
         border-bottom-right-radius: 215px;
 
-        .navbar {
-            background-color: $background-container;
-            border: none;
-            border: 2px solid black;
-            width: auto;
-            outline: none;
-            display: flex;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-            box-sizing: border-box;
-            max-width: calc(1280px + 24px*2);
-            padding-left: 14px;
-            padding-right: 14px;
+        // .navbar {
+        //     background-color: $background-container;
+        //     // border: none;
+        //     border: 2px solid black;
+        //     // width: auto;
+        //     // outline: none;
+        //     // margin: 0px 0px 0px 0px;
+            
+        //     .navbar-toggler{
+        //         border: none;
+        //         outline: none;
+        //         color:$background-container ;
+        //         padding: 0.3rem;
+        //         width: 1.4em;
+        //     }
 
-            .navbar-toggler{
-                border: none;
-                outline: none;
-                color:$background-container ;
-                padding: 0.3rem;
-                width: 1.4em;
-            }
+        //     &__logo {
+        //         font-weight: 800;
+        //         color: white;
+        //         // border: 2px solid black;
+        //         margin: 0em 0em em 0em;
+        //         border: none;
 
-            &__logo {
-                font-weight: 800;
-                color: white;
-                // border: 2px solid black;
-                margin: 0em 0em em 0em;
-                border: none;
+        //     }
 
-            }
+        //     &__signup {
+        //         border: none;
+        //         background-color: $btn-color; // Make sure this variable is defined
+        //         border-radius: 40px;
+        //         height: 30px;
+        //         width: 5rem;
+        //         margin-left: 0.5em;
+        //     }
 
-            &__signup {
-                border: none;
-                background-color: $btn-color; // Make sure this variable is defined
-                border-radius: 40px;
-                height: 30px;
-                width: 5rem;
-                margin-left: 0.5em;
-            }
-
-            &__login{
-                border: none;
-                background-color: transparent;
-                color: white;
-                margin-left: 7.5em;
-                font-weight: bold;
-            }
-        }
+        //     &__login{
+        //         border: none;
+        //         background-color: transparent;
+        //         color: white;
+        //         margin-left: 7.5em;
+        //         font-weight: bold;
+        //     }
+        // }
 
         .main{
-            margin-top: 30px;
+            margin-top: 50px;
 
             &__desc {
                 color: white;
