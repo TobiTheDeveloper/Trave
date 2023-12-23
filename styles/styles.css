@@ -8,7 +8,7 @@
 @media (max-width: 575.98px) {
   .container {
     background-color: #4CAF50;
-    height: 530px;
+    max-height: 35em;
     width: auto;
     border-bottom-right-radius: 215px;
   }
@@ -39,6 +39,11 @@
     color: white;
     margin-top: 3rem;
     font-weight: bold;
+  }
+  .container .navbar .collapse {
+    height: 100vh;
+    color: black;
+    background-color: white; /* Semi-transparent background */
   }
   .container .main {
     margin-top: 5rem;

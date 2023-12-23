@@ -12,16 +12,12 @@
 .container {
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
-        height: 530px;
+        max-height: 35em;
         width: auto;
         border-bottom-right-radius: 215px;
 
         .navbar {
             background-color: $background-container;
-            // border: none;
-            // width: auto;
-            // outline: none;
-            // margin: 0px 0px 0px 0px;
             
             .navbar-toggler{
                 border: none;
@@ -50,8 +46,13 @@
                 background-color: transparent;
                 color: white;
                 margin-top: 3rem;
-                // margin-left: 1.5em;
                 font-weight: bold;
+            }
+
+            .collapse{
+                height: 100vh;
+                color: black;
+                background-color: white; /* Semi-transparent background */
             }
         }
 
