@@ -12,6 +12,14 @@
     width: auto;
     border-bottom-right-radius: 215px;
   }
+  .container .navbar {
+    background-color: #4CAF50;
+  }
+  .container .navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    color: #4CAF50;
+  }
   .container .navbar__logo {
     font-weight: 800;
     color: white;
