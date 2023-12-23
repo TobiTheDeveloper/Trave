@@ -41,7 +41,7 @@
     font-weight: bold;
   }
   .container .main {
-    margin-top: 50px;
+    margin-top: 5rem;
   }
   .container .main__desc {
     color: white;
@@ -81,7 +81,7 @@
     font-weight: bold;
   }
   .container .secMain {
-    margin-top: 10rem;
+    margin-top: 7rem;
   }
   .container .secMain__passanger {
     border-top-left-radius: 214.5px;
