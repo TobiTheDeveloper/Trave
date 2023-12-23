@@ -8,9 +8,9 @@
 @media (max-width: 575.98px) {
   .container {
     background-color: #4CAF50;
-    max-height: 35em;
+    max-height: 46.5em;
     width: auto;
-    border-bottom-right-radius: 215px;
+    border-bottom-right-radius: 265px;
   }
   .container .navbar {
     background-color: #4CAF50;
@@ -85,7 +85,7 @@
     font-weight: bold;
   }
   .container .secMain {
-    margin-top: 7rem;
+    margin-top: 20rem;
   }
   .container .secMain__passanger {
     border-top-left-radius: 214.5px;

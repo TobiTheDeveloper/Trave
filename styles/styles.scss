@@ -12,10 +12,10 @@
 .container {
     @media (max-width: 575.98px)  {
         background-color: $background-container; // Make sure this variable is defined
-        max-height: 35em;
+        max-height: 46.5em;
         width: auto;
-        border-bottom-right-radius: 215px;
-
+        border-bottom-right-radius: 265px;
+     
         .navbar {
             background-color: $background-container;
             
@@ -101,7 +101,7 @@
         }
 
         .secMain{
-            margin-top: 7rem;
+            margin-top: 20rem;
             &__passanger {
                 border-top-left-radius: 214.5px;
                 border-bottom-right-radius: 214.5px;
