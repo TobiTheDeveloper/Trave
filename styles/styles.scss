@@ -35,7 +35,8 @@
             &__logo {
                 font-weight: 800;
                 color: white;
-                margin: 0em 0em 0em 0.5em;
+                // border: 2px solid black;
+                margin: 0em 0em em 0em;
                 border: none;
 
             }
@@ -46,14 +47,14 @@
                 border-radius: 40px;
                 height: 30px;
                 width: 5rem;
-                margin-right: 10px;
+                margin-left: 0.5em;
             }
 
             &__login{
                 border: none;
                 background-color: transparent;
                 color: white;
-                margin-right: 10px;
+                margin-left: 7.5em;
                 font-weight: bold;
             }
         }
