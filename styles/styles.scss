@@ -36,22 +36,23 @@
 
             }
 
-        //     &__signup {
-        //         border: none;
-        //         background-color: $btn-color; // Make sure this variable is defined
-        //         border-radius: 40px;
-        //         height: 30px;
-        //         width: 5rem;
-        //         margin-left: 0.5em;
-        //     }
+            &__signup {
+                border: none;
+                background-color: $btn-color; // Make sure this variable is defined
+                border-radius: 40px;
+                height: 30px;
+                width: 5rem;
+                margin-left: 2.5em;
+            }
 
-        //     &__login{
-        //         border: none;
-        //         background-color: transparent;
-        //         color: white;
-        //         margin-left: 7.5em;
-        //         font-weight: bold;
-        //     }
+            &__login{
+                border: none;
+                background-color: transparent;
+                color: white;
+                margin-top: 3rem;
+                // margin-left: 1.5em;
+                font-weight: bold;
+            }
         }
 
         .main{

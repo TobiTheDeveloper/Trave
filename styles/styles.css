@@ -25,6 +25,21 @@
     color: white;
     border: none;
   }
+  .container .navbar__signup {
+    border: none;
+    background-color: #FFC107;
+    border-radius: 40px;
+    height: 30px;
+    width: 5rem;
+    margin-left: 2.5em;
+  }
+  .container .navbar__login {
+    border: none;
+    background-color: transparent;
+    color: white;
+    margin-top: 3rem;
+    font-weight: bold;
+  }
   .container .main {
     margin-top: 50px;
   }
