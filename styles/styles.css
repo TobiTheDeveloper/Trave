@@ -15,8 +15,10 @@
   .container .navbar {
     background-color: #4CAF50;
     border: none;
+    border: 2px solid black;
     width: auto;
     outline: none;
+    margin: 0px 30px;
   }
   .container .navbar .navbar-toggler {
     border: none;
