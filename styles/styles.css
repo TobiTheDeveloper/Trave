@@ -15,7 +15,13 @@
   .container .navbar {
     background-color: #4CAF50;
     border: none;
-    border: 2px solid black;
+    width: auto;
+    outline: none;
+  }
+  .container .navbar .navbar-toggler {
+    border: none;
+    outline: none;
+    color: #4CAF50;
   }
   .container .navbar__logo {
     font-weight: 800;
