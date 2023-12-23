@@ -19,25 +19,12 @@
         .navbar {
             background-color: $background-container;
             border: none;
-            // display: flex;
-            // justify-content: space-between;
-            // align-items: center;
-            // border: 2px solid black;
-
-
-            &__burger-button {
-                border: none;
-                background-color: transparent;
-                cursor: pointer;
-                margin-right: 0.9rem;
-                // border: 2px solid black;
-
-            }
+            border: 2px solid black;
 
             &__logo {
                 font-weight: 800;
                 color: white;
-                margin: 0em 13em 0em 0.5em;
+                margin: 0em 10em 0em 0.5em;
                 border: none;
                 // border: 2px solid black;
 
@@ -113,9 +100,9 @@
             margin-top: 10rem;
 
             &__passanger {
-            //     border-top-left-radius: 214.5px;
-            //     border-bottom-right-radius: 214.5px;
-                width: 431px;
+                border-top-left-radius: 214.5px;
+                border-bottom-right-radius: 214.5px;
+                width: 100%;
 
             }
         }

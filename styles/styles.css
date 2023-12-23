@@ -15,17 +15,12 @@
   .container .navbar {
     background-color: #4CAF50;
     border: none;
-  }
-  .container .navbar__burger-button {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    margin-right: 0.9rem;
+    border: 2px solid black;
   }
   .container .navbar__logo {
     font-weight: 800;
     color: white;
-    margin: 0em 13em 0em 0.5em;
+    margin: 0em 10em 0em 0.5em;
     border: none;
   }
   .container .navbar__signup {
@@ -87,6 +82,8 @@
     margin-top: 10rem;
   }
   .container .secMain__passanger {
-    width: 431px;
+    border-top-left-radius: 214.5px;
+    border-bottom-right-radius: 214.5px;
+    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
