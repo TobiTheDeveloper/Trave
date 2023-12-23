@@ -18,12 +18,19 @@
 
         .navbar {
             background-color: $background-container;
-            border: none;
-            // border: 2px solid black;
-            width: auto;
-            outline: none;
-            margin: 0px 0px;
-            
+            // border: none;
+            // // border: 2px solid black;
+            // width: auto;
+            // outline: none;
+            // margin: 0px 0px 0px 0px;
+            display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: calc(1280px + 24px*2);
+    padding-left: 24px;
+    padding-right: 24px;
             .navbar-toggler{
                 border: none;
                 outline: none;

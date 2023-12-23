@@ -14,10 +14,14 @@
   }
   .container .navbar {
     background-color: #4CAF50;
-    border: none;
-    width: auto;
-    outline: none;
-    margin: 0px 0px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1328px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
   .container .navbar .navbar-toggler {
     border: none;
