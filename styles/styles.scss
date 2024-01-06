@@ -72,5 +72,25 @@
             display: block;
             margin: auto;
         }
+
+        &__heading{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            padding: 0.5em;
+            margin-top: 0.5em;
+            // border: 2px solid black;
+            width: fit-content;
+        }
+
+        &__paragraph {
+            font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 400;
+            letter-spacing: 2px;
+            // border: 2px solid black;
+            padding: 0.5em;
+            margin-top: 0em;
+        }
     }
 }
