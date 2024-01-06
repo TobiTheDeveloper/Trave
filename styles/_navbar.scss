@@ -1,0 +1,38 @@
+.navbar {
+    background-color: $background-container;
+    
+    .navbar-toggler{
+        border: none;
+        outline: none;
+        color:$background-container ;
+    }
+
+    &__logo {
+        font-weight: 800;
+        color: white;
+        border: none;
+
+    }
+
+    &__signup {
+        border: none;
+        background-color: $btn-color; // Make sure this variable is defined
+        border-radius: 40px;
+        height: 30px;
+        width: 5rem;
+        margin-left: 2.5em;
+    }
+
+    &__login{
+        border: none;
+        background-color: transparent;
+        color: white;
+        margin-top: 3rem;
+        font-weight: bold;
+    }
+
+    .nav-item, a{
+        font-size: 1.4rem;
+        color: white;
+    }
+}

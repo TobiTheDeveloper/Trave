@@ -1,3 +1,36 @@
+.navbar {
+  background-color: #4CAF50;
+}
+.navbar .navbar-toggler {
+  border: none;
+  outline: none;
+  color: #4CAF50;
+}
+.navbar__logo {
+  font-weight: 800;
+  color: white;
+  border: none;
+}
+.navbar__signup {
+  border: none;
+  background-color: #FFC107;
+  border-radius: 40px;
+  height: 30px;
+  width: 5rem;
+  margin-left: 2.5em;
+}
+.navbar__login {
+  border: none;
+  background-color: transparent;
+  color: white;
+  margin-top: 3rem;
+  font-weight: bold;
+}
+.navbar .nav-item, .navbar a {
+  font-size: 1.4rem;
+  color: white;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -5,59 +38,24 @@
   box-sizing: content-box;
 }
 
-@media (max-width: 575.98px) {
+@media only screen and (max-width: 480px) {
   .container {
     background-color: #4CAF50;
-    max-height: 46.5em;
-    width: auto;
     border-bottom-right-radius: 265px;
-  }
-  .container .navbar {
-    background-color: #4CAF50;
-  }
-  .container .navbar .navbar-toggler {
-    border: none;
-    outline: none;
-    color: #4CAF50;
-  }
-  .container .navbar__logo {
-    font-weight: 800;
-    color: white;
-    border: none;
-  }
-  .container .navbar__signup {
-    border: none;
-    background-color: #FFC107;
-    border-radius: 40px;
-    height: 30px;
-    width: 5rem;
-    margin-left: 2.5em;
-  }
-  .container .navbar__login {
-    border: none;
-    background-color: transparent;
-    color: white;
-    margin-top: 3rem;
-    font-weight: bold;
-  }
-  .container .navbar .nav-item, .container .navbar a {
-    font-size: 1.4rem;
-    color: white;
-  }
-  .container .main {
-    margin-top: 5rem;
+    width: auto;
+    max-height: 46rem;
   }
   .container .main__desc {
     color: white;
     font-size: 1.8em;
     font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 30px;
     display: block;
+    margin-top: 2em;
   }
   .container .main__location {
     display: block;
     margin-bottom: 30px;
+    margin-top: 2em;
     height: 50px;
     width: 80%;
     border: none;
@@ -83,13 +81,16 @@
     height: 47px;
     color: black;
     font-weight: bold;
+    margin-bottom: 3em;
   }
-  .container .secMain {
-    margin-top: 20rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .secMain {
+    margin-top: 3.5rem;
   }
-  .container .secMain__passanger {
+  .secMain__passanger {
     border-top-left-radius: 214.5px;
     border-bottom-right-radius: 214.5px;
-    width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

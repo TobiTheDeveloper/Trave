@@ -1,6 +1,6 @@
 @import '_media-queries.scss'; // Make sure 'media-up' mixin is defined
-@import '_variables';
 @import '_colors';
+@import '_navbar';
 
 * {
     font-family: 'Montserrat', sans-serif;
@@ -10,66 +10,24 @@
 }
 
 .container {
-    @media (max-width: 575.98px)  {
-        background-color: $background-container; // Make sure this variable is defined
-        max-height: 46.5em;
-        width: auto;
+    @include smallPhones  {
+        background-color: $background-container;
         border-bottom-right-radius: 265px;
-     
-        .navbar {
-            background-color: $background-container;
-            
-            .navbar-toggler{
-                border: none;
-                outline: none;
-                color:$background-container ;
-            }
-
-            &__logo {
-                font-weight: 800;
-                color: white;
-                border: none;
-
-            }
-
-            &__signup {
-                border: none;
-                background-color: $btn-color; // Make sure this variable is defined
-                border-radius: 40px;
-                height: 30px;
-                width: 5rem;
-                margin-left: 2.5em;
-            }
-
-            &__login{
-                border: none;
-                background-color: transparent;
-                color: white;
-                margin-top: 3rem;
-                font-weight: bold;
-            }
-
-            .nav-item, a{
-                font-size: 1.4rem;
-                color: white;
-            }
-        }
-
+        width: auto;
+        max-height: 46rem;
         .main{
-            margin-top: 5rem;
-
             &__desc {
                 color: white;
                 font-size: 1.8em;
                 font-weight: bold;
-                margin-top: 30px;
-                margin-bottom: 30px;
                 display: block;
+                margin-top: 2em;
             }
-
+    
             &__location{
                 display: block;
                 margin-bottom: 30px;
+                margin-top: 2em;
                 height: 50px;
                 width: 80%;
                 border: none;
@@ -77,7 +35,7 @@
                 border-radius: 15px;
                 padding: 10px;
             }
-
+    
             &__destination{
                 margin-bottom: 30px;
                 height: 50px;
@@ -88,7 +46,7 @@
                 padding: 10px;
                 display: block;
             }
-
+    
             &__prices{
                 border: none;
                 outline: none;
@@ -97,17 +55,20 @@
                 height: 47px;
                 color: black;
                 font-weight: bold;
+                margin-bottom: 3em;
             }
-        }
 
-        .secMain{
-            margin-top: 20rem;
-            &__passanger {
-                border-top-left-radius: 214.5px;
-                border-bottom-right-radius: 214.5px;
-                width: 100%;
-            }
         }
     }
+}
 
+.secMain{
+    @include smallPhones  {
+        margin-top: 3.5rem;
+        &__passanger {
+            border-top-left-radius: 214.5px;
+            border-bottom-right-radius: 214.5px;
+            // width: 100%;
+        }
+    }
 }
