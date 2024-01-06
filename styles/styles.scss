@@ -75,7 +75,7 @@
 
         &__heading{
             font-family: 'Montserrat', sans-serif;
-            font-size: 36px;
+            font-size: 2em;
             font-weight: 600;
             padding: 0.5em;
             margin-top: 0.5em;
@@ -84,13 +84,12 @@
         }
 
         &__paragraph {
-            font-size: 20px;
+            font-size: 1.2em;
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             letter-spacing: 2px;
             // border: 2px solid black;
-            padding: 0.5em;
-            margin-top: 0em;
+            padding: 1em;
         }
     }
 }
