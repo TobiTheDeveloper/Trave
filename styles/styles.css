@@ -175,8 +175,9 @@
     margin-right: auto;
   }
   .secMain .downloadBtns {
-    margin-top: 1em;
+    margin-top: 1.5em;
     display: grid;
+    background-color: seashell;
   }
   .secMain .downloadBtns__heading {
     font-family: "Montserrat", sans-serif;
@@ -195,7 +196,7 @@
     font-weight: 800;
     margin-bottom: 1em;
     width: 95%;
-    height: 7.5em;
+    height: 4.5em;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -206,6 +207,7 @@
   }
   .secMain .downloadBtns__trave-app img {
     margin-left: 0.5em;
+    width: 15%;
   }
   .secMain .downloadBtns__driver-app {
     color: black;
@@ -215,7 +217,7 @@
     font-weight: 800;
     margin-bottom: 1em;
     width: 95%;
-    height: 7.5em;
+    height: 4.5em;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -226,5 +228,6 @@
   }
   .secMain .downloadBtns__driver-app img {
     margin-left: 0.5em;
+    width: 15%;
   }
 }/*# sourceMappingURL=styles.css.map */
