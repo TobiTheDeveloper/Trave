@@ -112,4 +112,32 @@
     letter-spacing: 2px;
     padding: 1em;
   }
+  .secMain .btns {
+    border: 2px solid black;
+  }
+  .secMain .btns__getStarted {
+    background-color: #FFC107;
+    height: 3.5em;
+    width: 9em;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  .secMain .btns__signIn {
+    background-color: black;
+    color: #FFC107;
+    height: 3.5em;
+    width: 9em;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  .secMain .btns__signIn :hover {
+    background-color: #FFC107;
+    color: black;
+  }
 }/*# sourceMappingURL=styles.css.map */

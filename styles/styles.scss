@@ -79,7 +79,6 @@
             font-weight: 600;
             padding: 0.5em;
             margin-top: 0.5em;
-            // border: 2px solid black;
             width: fit-content;
         }
 
@@ -88,8 +87,38 @@
             font-family: 'Montserrat', sans-serif;
             font-weight: 400;
             letter-spacing: 2px;
-            // border: 2px solid black;
             padding: 1em;
+        }
+        .btns {
+            border: 2px solid black;
+
+            &__getStarted {
+                background-color: #FFC107;
+                height: 3.5em;
+                width: 9em;
+                border: none;
+                outline: none;
+                font-size: 1.2em;
+                font-weight: 700;
+                border-radius: 5px;
+            }
+
+            &__signIn {
+                background-color: black;
+                color: #FFC107;
+                height: 3.5em;
+                width: 9em;
+                border: none;
+                outline: none;
+                font-size: 1.2em;
+                font-weight: 700;
+                border-radius: 5px;
+
+                :hover {
+                    background-color: #FFC107;
+                    color: black;
+                }
+            }
         }
     }
 }
