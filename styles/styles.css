@@ -113,7 +113,10 @@
     padding: 1em;
   }
   .secMain .btns {
-    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   }
   .secMain .btns__getStarted {
     background-color: #FFC107;
@@ -124,6 +127,10 @@
     font-size: 1.2em;
     font-weight: 700;
     border-radius: 5px;
+  }
+  .secMain .btns__getStarted:hover {
+    background-color: black;
+    color: #FFC107;
   }
   .secMain .btns__signIn {
     background-color: black;
@@ -136,7 +143,7 @@
     font-weight: 700;
     border-radius: 5px;
   }
-  .secMain .btns__signIn :hover {
+  .secMain .btns__signIn:hover {
     background-color: #FFC107;
     color: black;
   }

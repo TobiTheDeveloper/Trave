@@ -90,7 +90,10 @@
             padding: 1em;
         }
         .btns {
-            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
 
             &__getStarted {
                 background-color: #FFC107;
@@ -101,6 +104,11 @@
                 font-size: 1.2em;
                 font-weight: 700;
                 border-radius: 5px;
+
+                &:hover {
+                    background-color: black;
+                    color: #FFC107;
+                }
             }
 
             &__signIn {
@@ -114,7 +122,7 @@
                 font-weight: 700;
                 border-radius: 5px;
 
-                :hover {
+                &:hover {
                     background-color: #FFC107;
                     color: black;
                 }
