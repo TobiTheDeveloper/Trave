@@ -189,35 +189,42 @@
   }
   .secMain .downloadBtns__trave-app {
     background-color: white;
+    color: black;
     outline: none;
-    font-size: 0.8em;
-    font-weight: 800;
-    margin-bottom: 3em;
-    width: 95%;
-    height: 7.5em;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-  }
-  .secMain .downloadBtns__trave-app img {
-    float: left;
-    margin-left: 2em;
-  }
-  .secMain .downloadBtns__driver-app {
-    background-color: white;
-    outline: none;
-    font-size: 0.8em;
+    font-size: 1.4em;
     font-weight: 800;
     margin-bottom: 1em;
     width: 95%;
     height: 7.5em;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+  }
+  .secMain .downloadBtns__trave-app img {
+    margin-left: 0.5em;
+  }
+  .secMain .downloadBtns__driver-app {
+    color: black;
+    background-color: white;
+    outline: none;
+    font-size: 1.4em;
+    font-weight: 800;
+    margin-bottom: 1em;
+    width: 95%;
+    height: 7.5em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
   }
   .secMain .downloadBtns__driver-app img {
-    float: left;
-    margin-left: 2em;
+    margin-left: 0.5em;
   }
 }/*# sourceMappingURL=styles.css.map */
