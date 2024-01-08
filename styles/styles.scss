@@ -131,6 +131,23 @@
                 display: block;
                 margin: auto;
             }
+
+            &__heading{
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2em;
+                font-weight: 600;
+                padding: 0.5em;
+                margin-top: 0.9em;
+                width: fit-content;
+            }
+    
+            &__paragraph {
+                font-size: 1.2em;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 400;
+                letter-spacing: 2px;
+                padding: 1em;
+            }
         }
     }
 }
