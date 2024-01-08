@@ -139,4 +139,9 @@
     font-weight: 700;
     border-radius: 5px;
   }
+  .secMain .thirdMain__map {
+    margin-top: 5em;
+    border-top-left-radius: 220px;
+    border-bottom-right-radius: 220px;
+  }
 }/*# sourceMappingURL=styles.css.map */
