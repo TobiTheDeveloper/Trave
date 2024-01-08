@@ -95,6 +95,7 @@
             justify-content: center;
             align-items: center;
             justify-content: space-evenly;
+            margin-bottom: 5em;
 
             &__getStarted {
                 background-color: #FFC107;
@@ -119,12 +120,16 @@
                 border-radius: 5px;
             }
         }
-        
+
         .thirdMain {
             &__map {
-                margin-top: 5em;
+                // margin-top: 5em;
                 border-top-left-radius: 220px;
                 border-bottom-right-radius: 220px;
+                width: 95%;
+                display: flex;
+                display: block;
+                margin: auto;
             }
         }
     }
