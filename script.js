@@ -12,3 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     mainContainer.classList.toggle("expanded");
   });
 });
+
+function calculateCost() {
+  const startLocation = getElementById('startLocation').value;
+  const endLocation = getElementById('endLocation').value;
+
+}

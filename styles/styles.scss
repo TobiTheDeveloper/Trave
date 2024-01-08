@@ -159,5 +159,39 @@
                 margin-right: auto;
             }
         }
+
+        .downloadBtns {
+            display: grid;
+            &__heading {
+                font-family: 'Montserrat', sans-serif;
+                font-size: 2em;
+                font-weight: 600;
+                padding: 0.5em;
+                margin-top: 0.9em;
+                width: fit-content;
+            }
+            &__trave-app {
+                background-color: white;
+                padding: 0.5em;
+                outline: none;
+                font-size: 1.2em;
+                font-weight: 800;
+                margin-bottom: 1em;
+                margin-left: 0.9em;
+                width: fit-content;
+            }
+
+            &__driver-app {
+                background-color: white;
+                padding: 0.2em;
+                outline: none;
+                font-size: 1.2em;
+                font-weight: 800;
+                margin-bottom: 1em;
+                margin-left: 0.9em;
+                width: fit-content;
+
+            }
+        }
     }
 }
