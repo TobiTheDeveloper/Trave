@@ -121,8 +121,9 @@
   }
   .secMain .btns__getStarted {
     background-color: #FFC107;
+    color: black;
     height: 3.5em;
-    width: 9em;
+    width: 6.8em;
     border: none;
     outline: none;
     font-size: 1.2em;
@@ -133,7 +134,7 @@
     background-color: black;
     color: #FFC107;
     height: 3.5em;
-    width: 9em;
+    width: 6.8em;
     border: none;
     outline: none;
     font-size: 1.2em;
