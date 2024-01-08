@@ -199,7 +199,7 @@
             }
 
             &__driver-app {
-
+                
                 img {
                     margin-left: 0.5em;
                     width: 15%;
@@ -219,6 +219,20 @@
                 align-items: center;
                 justify-content: space-evenly;
                 border: 1px solid black;
+            }
+        }
+
+        .footer {
+            height: 100%;            
+            // width: auto;
+            background-color: $background-container;
+            // border-top-left-radius: 300px;
+
+            &__logo {
+                margin: 60.5px;
+                color: white;
+                font-weight: 800;
+                font-size: 1.5em;
             }
         }
     }
