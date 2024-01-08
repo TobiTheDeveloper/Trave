@@ -177,7 +177,7 @@
   .secMain .downloadBtns {
     margin-top: 1.5em;
     display: grid;
-    background-color: seashell;
+    background-color: #F5F5F5;
   }
   .secMain .downloadBtns__heading {
     font-family: "Montserrat", sans-serif;
