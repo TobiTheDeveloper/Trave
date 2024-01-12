@@ -224,19 +224,15 @@
 
         .footer {
             height: 100%;            
-            // width: auto;
-            background-color: $background-container;
-            // border-top-left-radius: 300px;
-            // border: 2px solid yellow;
-
-            
+            background-color: $background-container;    
+                    
             &__logo {
-                margin-left: 0.9em;
+                // margin-left: 0.9em;
                 // border: 2px solid black;
                 color: white;
                 font-weight: 800;
                 font-size: 1.5em;
-                margin: 0.9em 0 0 0.9em;
+                margin: 0em 0 0 0.9em;
                 width: fit-content;
             }
 
