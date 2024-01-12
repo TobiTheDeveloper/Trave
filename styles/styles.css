@@ -237,6 +237,7 @@
   }
   .secMain .footer__logo {
     margin-left: 0.9em;
+    border: 2px solid black;
     color: white;
     font-weight: 800;
     font-size: 1.5em;
@@ -248,11 +249,31 @@
     margin-left: 0.9em;
     border: 2px solid black;
     display: grid;
-    margin-top: 2em;
+    margin-top: 4em;
   }
   .secMain .footer__company-menu .company {
     font-family: "Montserrat", sans-serif;
-    font-weight: 800;
+    font-weight: bold;
     font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #F5F5F5;
+    border: 2px solid black;
+    width: -moz-fit-content;
+    width: fit-content;
+    letter-spacing: 0.1em;
+  }
+  .secMain .footer__company-menu a {
+    letter-spacing: 0.1em;
+    color: #F5F5F5;
+    line-height: 2em;
+    border: 2px solid black;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0.9em 0 0 0;
+    text-decoration: none;
+    font-size: 1.125em;
+  }
+  .secMain .footer__company-menu a :hover {
+    color: gray;
   }
 }/*# sourceMappingURL=styles.css.map */
