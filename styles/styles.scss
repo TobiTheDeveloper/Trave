@@ -227,12 +227,31 @@
             // width: auto;
             background-color: $background-container;
             // border-top-left-radius: 300px;
+            border: 2px solid yellow;
 
+            
             &__logo {
-                margin: 60.5px;
+                margin-left: 0.9em;
+                border: 2px solid black;
                 color: white;
                 font-weight: 800;
                 font-size: 1.5em;
+                margin-top: 2em;
+                width: fit-content;
+            }
+
+            &__company-menu {
+                margin-left: 0.9em;
+                border: 2px solid black;
+                display: grid;
+                margin-top: 2em;
+                .company{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 800;
+                    font-size: 1.5em;
+
+                }
+
             }
         }
     }

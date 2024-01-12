@@ -233,10 +233,26 @@
   .secMain .footer {
     height: 100%;
     background-color: #4CAF50;
+    border: 2px solid yellow;
   }
   .secMain .footer__logo {
-    margin: 60.5px;
+    margin-left: 0.9em;
+    border: 2px solid black;
     color: white;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-top: 2em;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .secMain .footer__company-menu {
+    margin-left: 0.9em;
+    border: 2px solid black;
+    display: grid;
+    margin-top: 2em;
+  }
+  .secMain .footer__company-menu .company {
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
     font-size: 1.5em;
   }
