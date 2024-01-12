@@ -227,12 +227,12 @@
             // width: auto;
             background-color: $background-container;
             // border-top-left-radius: 300px;
-            border: 2px solid yellow;
+            // border: 2px solid yellow;
 
             
             &__logo {
                 margin-left: 0.9em;
-                border: 2px solid black;
+                // border: 2px solid black;
                 color: white;
                 font-weight: 800;
                 font-size: 1.5em;
@@ -242,7 +242,7 @@
 
             &__company-menu {
                 margin-left: 0.9em;
-                border: 2px solid black;
+                // border: 2px solid black;
                 display: grid;
                 margin-top: 4em;
                 .company{
@@ -251,7 +251,7 @@
                     font-size: 1.5em;
                     margin-bottom: 0.5em;
                     color: #F5F5F5;
-                    border: 2px solid black;
+                    // border: 2px solid black;
                     width: fit-content;
                     letter-spacing: 0.1em;
                 }
@@ -259,7 +259,7 @@
                     letter-spacing: 0.1em;
                     color: #F5F5F5;
                     line-height: 2em;
-                    border: 2px solid black;
+                    // border: 2px solid black;
                     width: fit-content;
                     margin: 0.9em 0 0 0;
                     text-decoration: none;
