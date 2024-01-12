@@ -222,10 +222,30 @@
             }
         }
 
+        .signUp {
+            padding: 10px;
+            &__ride {
+                margin-top: 2em;
+                font-size: 24px;
+                font-weight: bold;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .form-control {
+                width: 90%;
+                margin-top: 2em;
+                font-family: 'Montserrat', sans-serif;
+            }
+            p {
+                font-family: 'Montserrat', sans-serif;
+                margin-top: 1em;
+            }
+        }
+
         .footer {
             height: 100%;            
             background-color: $background-container;    
-                    
+
             &__logo {
                 // margin-left: 0.9em;
                 // border: 2px solid black;
@@ -233,6 +253,7 @@
                 font-weight: 800;
                 font-size: 1.5em;
                 margin: 0em 0 0 0.9em;
+                padding-top: 50px;
                 width: fit-content;
             }
 

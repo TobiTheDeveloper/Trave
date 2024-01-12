@@ -230,6 +230,24 @@
     margin-left: 0.5em;
     width: 15%;
   }
+  .secMain .signUp {
+    padding: 10px;
+  }
+  .secMain .signUp__ride {
+    margin-top: 2em;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+  }
+  .secMain .signUp .form-control {
+    width: 90%;
+    margin-top: 2em;
+    font-family: "Montserrat", sans-serif;
+  }
+  .secMain .signUp p {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 1em;
+  }
   .secMain .footer {
     height: 100%;
     background-color: #4CAF50;
@@ -239,6 +257,7 @@
     font-weight: 800;
     font-size: 1.5em;
     margin: 0em 0 0 0.9em;
+    padding-top: 50px;
     width: -moz-fit-content;
     width: fit-content;
   }
