@@ -243,23 +243,20 @@
         }
 
         .footer {
+            // border: 2px solid black;
             height: 100%;            
             background-color: $background-container;    
-
             &__logo {
-                // margin-left: 0.9em;
-                // border: 2px solid black;
                 color: white;
                 font-weight: 800;
                 font-size: 1.5em;
-                margin: 0em 0 0 0.9em;
+                margin: 0.9em 0 0 0.9em;
                 padding-top: 50px;
                 width: fit-content;
             }
 
             &__company-menu {
                 margin-left: 0.9em;
-                // border: 2px solid black;
                 display: grid;
                 margin-top: 4em;
                 .company{
@@ -268,15 +265,14 @@
                     font-size: 1.5em;
                     margin-bottom: 0.5em;
                     color: #F5F5F5;
-                    // border: 2px solid black;
                     width: fit-content;
                     letter-spacing: 0.1em;
                 }
+
                 a {
                     letter-spacing: 0.1em;
                     color: #F5F5F5;
                     line-height: 2em;
-                    // border: 2px solid black;
                     width: fit-content;
                     margin: 0.9em 0 0 0;
                     text-decoration: none;
@@ -285,6 +281,37 @@
                         color:gray ;
                     }
                 }
+            }
+
+            &__product {
+                margin-left: 0.9em;
+                display: grid;
+                margin-top: 4em;
+                .product {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    margin-bottom: 0.5em;
+                    color: #F5F5F5;
+                    width: fit-content;
+                    letter-spacing: 0.1em;
+                }
+                a {
+                    letter-spacing: 0.1em;
+                    color: #F5F5F5;
+                    line-height: 2em;
+                    width: fit-content;
+                    margin: 0.9em 0 0 0;
+                    text-decoration: none;
+                    font-size: 1.1250em	;
+                }
+            }
+
+            p {
+                margin-top: 3em;
+                margin-left: 0.9em;
+                line-height: 20px;
+                font-size: 1em;
             }
         }
     }
